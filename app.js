@@ -25,6 +25,8 @@ app.get("/",function(req,res){
     res.render("index");
 })
 
-server.listen(3000);
+const PORT=4000;
+
+server.listen(PORT || 3000);
 
 
